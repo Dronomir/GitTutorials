@@ -5,9 +5,7 @@ Git Commands:
 	git log - shows the git repository commit history, including commit ID, user that issued the commit, and
 	  a commit message indicating what was changed
 
-
 	git init - converts current directory into a Git repository
-
 
 	git diff [commit ID #1] [commit ID #2] - compared the 2 commits and shows the changes made from one 
 						 to another
@@ -17,10 +15,24 @@ Git Commands:
 
 	git reset --hard - deletes any changes not commited in the repository *IRREVERSIBLE*
 
-	git branch - displays branches present in repository
+	git branch - displays branches present in repository
 
 	git branch [branch name] - creates a branch in the repository
 
 	git checkout [branch name] - switches active branch to specified branch
 
 	git checkout -b [branch name] - equivalent to creating new branch and switching to it
+
+	git remote - displays active remotes 
+
+	git remote add [remote name (origin as standard)] [fetch and push url] - creates remote with specified name and url
+
+	git remote -v - displays fetch and push urls in a detailed form
+
+	git push [remote name] [branch name] - uploads the specified branch to the specified remote
+
+	git pull [remote name] [branch name] - downloads the specified branch from the specified remote
+
+	git fetch [remote name] - downloads the current state of the github repo to a new local branch which can be merged
+
+	

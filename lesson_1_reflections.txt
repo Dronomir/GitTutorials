@@ -11,4 +11,8 @@ Git Commands:
 
 	git diff [commit ID #1] [commit ID #2] - compared the 2 commits and shows the changes made from one 
 						 to another
+	git diff - this no argument diff command compares the working directory with the staging area
+	
+	git diff --staged - this version of diff compares the staging area with the git repository
 
+	git reset --hard - deletes any changes not commited in the repository *IRREVERSIBLE*

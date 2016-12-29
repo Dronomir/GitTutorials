@@ -16,3 +16,11 @@ Git Commands:
 	git diff --staged - this version of diff compares the staging area with the git repository
 
 	git reset --hard - deletes any changes not commited in the repository *IRREVERSIBLE*
+
+	git branch - displays branches present in repository
+
+	git branch [branch name] - creates a branch in the repository
+
+	git checkout [branch name] - switches active branch to specified branch
+
+	git checkout -b [branch name] - equivalent to creating new branch and switching to it

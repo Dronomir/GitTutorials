@@ -1,0 +1,14 @@
+Git Commands:
+
+*git commands start with the keyword git followed by the actual command
+
+	git log - shows the git repository commit history, including commit ID, user that issued the commit, and
+	  a commit message indicating what was changed
+
+
+	git init - converts current directory into a Git repository
+
+
+	git diff [commit ID #1] [commit ID #2] - compared the 2 commits and shows the changes made from one 
+						 to another
+
